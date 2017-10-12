@@ -15,9 +15,7 @@ wp-content/plugins/hello.php
 npm-debug.log
 public/
 app/lib/
-/.idea/
-.idea/*
-.idea/*
+/.idea
 /wp-content/themes/
 /node_modules
 /bower_components
