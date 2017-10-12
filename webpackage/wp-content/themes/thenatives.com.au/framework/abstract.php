@@ -122,16 +122,16 @@ class Thenatives {
 	}
 
 	public function themestyle() {
-        wp_register_script( 'main-script', THEME_JS . "/main.js", array('jquery'), '', true );
-        wp_enqueue_script('main-script');
-        wp_register_style( 'bootstrap-style', THEME_CSS . "/bootstrap.min.css" );
-        wp_enqueue_style('bootstrap-style');
-        wp_register_style( 'fontawesome-style', THEME_CSS . "/font-awesome.min.css" );
-        wp_enqueue_style('fontawesome-style');
-        wp_register_style( 'main-style', THEME_URI . "/style.css" );
-        wp_enqueue_style('main-style');
-        wp_register_style( 'global-style', THEME_SCSS . "/global.css" );
-        wp_enqueue_style('global-style');
+        wp_register_script( 'main', THEME_JS . "/main.js", array('jquery'), '', true );
+        wp_enqueue_script('main');
+        wp_register_style( 'bootstrap', THEME_CSS . "/bootstrap.min.css" );
+        wp_enqueue_style('bootstrap');
+        wp_register_style( 'fontawesome', THEME_CSS . "/font-awesome.min.css" );
+        wp_enqueue_style('fontawesome');
+        wp_register_style( 'theme', THEME_URI . "/style.css" );
+        wp_enqueue_style('theme');
+        wp_register_style( 'main', THEME_SCSS . "/main.css" );
+        wp_enqueue_style('main');
 	}
 
 	private function addMenuWidget() {

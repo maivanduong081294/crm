@@ -10,4 +10,11 @@
 <body <?php body_class(); ?> >
     <?php do_action('thenative_before_body'); ?>
 	<div id="wrapper">
+        <header id="header">
+            <div class="header-wrapper">
+                <div class="container">
+                    <?php do_action('thenatives_logo'); ?>
+                </div>
+            </div>
+        </header>
         <div id="body" class="site-main">

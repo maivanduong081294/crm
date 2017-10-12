@@ -36,54 +36,6 @@ if (!function_exists('thenatives_favicon')) {
     add_action('login_head', 'thenatives_favicon');
 }
 
-if (!function_exists('thenatives_header_bg')) {
-	function thenatives_header_bg() {
-		global $thenatives;
-		$bg = $thenatives['thenatives_banner']?$thenatives['thenatives_banner']:'';
-		if(is_front_page() && $thenatives['thenatives_banner_fp']){
-			$bg = $thenatives['thenatives_banner_fp'];
-		}
-		if(is_post_type_archive('about-us')){
-			if($thenatives['thenatives_about_us_banner']){
-				$bg = $thenatives['thenatives_about_us_banner'];
-			}
-		}
-		elseif(is_post_type_archive('service')){
-			if($thenatives['thenatives_service_banner']){
-				$bg = $thenatives['thenatives_service_banner'];
-			}
-		}
-		elseif(is_post_type_archive('language')){
-			if($thenatives['thenatives_language_banner']){
-				$bg = $thenatives['thenatives_language_banner'];
-			}
-		}
-		elseif(is_post_type_archive('contact')){
-			if($thenatives['thenatives_contact_banner']){
-				$bg = $thenatives['thenatives_contact_banner'];
-			}
-		}
-		elseif(is_single() || is_page()) {
-			if(get_post_meta( get_the_ID(), '_post_cover', true )){
-				$bg = get_post_meta( get_the_ID(), '_post_cover', true );
-			}
-			elseif(has_post_thumbnail()) {
-				$bg = get_the_post_thumbnail_url();
-			}
-		}
-		elseif(is_taxonomy('study-abroad-categories') && !is_single()){
-			global $wp_query;
-			$term = $wp_query->get_queried_object();
-			$term_id = $term->term_id;
-			$bg = get_term_meta($term_id, 'category-cover', true)?get_term_meta($term_id, 'category-cover', true):$bg;
-		}
-		if($bg){
-			echo ' style="background-image: url('.$bg.');"';
-		}
-	}
-	add_action('thenatives_header_bg','thenatives_header_bg');
-}
-
 if (!function_exists('thenatives_facebook_include')) {
 	function thenatives_facebook_include() {
 		global $thenatives;

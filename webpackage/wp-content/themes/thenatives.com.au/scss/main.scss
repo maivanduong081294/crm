@@ -1,0 +1,49 @@
+$fontFamily: Myriad-Pro,sans-serif;
+$fontSize: 14px;
+$lineHeight: 24px;
+$color: #6e6f71;
+$colorLink: #6e6f71;
+$colorLinkHover: #0f99d5;
+$radius: 4px;
+
+$colorBtn: #fff;
+$bgColorBtn: #0f99d5;
+$borderBtn: 1px solid #0f99d5;
+
+$colorHoverBtn: #0f99d5;
+$bgColorHoverBtn: transparent;
+$borderHoverBtn: 1px solid #0f99d5;
+
+body {
+	font-family: $fontFamily;
+	color: $color;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+}
+a {
+	color: $colorLink;
+	text-decoration: none;
+}
+a:hover {
+	color: $colorLinkHover;
+	text-decoration: none;
+}
+button, .btn, .button {
+	color: $colorBtn;
+	background-color: $bgColorBtn;
+	border: $borderBtn;
+	border-radius: $radius;
+}
+button:hover, .btn:hover, .button:hover {
+	color: $colorHoverBtn;
+	background-color: $bgColorHoverBtn;
+	border: $borderHoverBtn;
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+* {
+	box-sizing: border-box;
+}
