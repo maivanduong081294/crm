@@ -20,4 +20,5 @@ app/lib/
 .idea/*
 /wp-content/themes/
 /node_modules
+/bower_components
 
