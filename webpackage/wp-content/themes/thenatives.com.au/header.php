@@ -1,3 +1,4 @@
+<?php global $thenatives; ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> />
 <head>
@@ -12,9 +13,12 @@
 	<div id="wrapper">
         <header id="header">
             <div class="header-wrapper">
-                <div class="container">
-                    <?php do_action('thenatives_logo'); ?>
-                </div>
+                <?php do_action('thenatives_logo'); ?>
+                <?php if (has_nav_menu('primary')) : ?>
+                    <nav id="menu" class="nav menu">
+                        <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+                    </nav>
+                <?php endif; ?>
             </div>
         </header>
         <div id="body" class="site-main">
