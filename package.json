@@ -22,7 +22,6 @@
         "pull": "git pull git@github.com:nguyenpham95/fashion-journal.git"
     },
     "devDependencies": {
-        "bower": "*",
         "del": "*",
         "express": "*",
         "gulp": "*",
