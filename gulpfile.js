@@ -158,11 +158,11 @@ gulp.task('replaceCSS_dev', () => {
 ///
 
 gulp.task('exportSQL', () => {
-    return runCmd('cd wp-db & mysqldump -u root wordpress > fashionJournalDb.sql').exec();
+    return runCmd('cd wp-db & mysqldump -u root crm > db.sql').exec();
 });
 
 gulp.task('importSQL', () => {
-    return runCmd('cd wp-db & mysql -u root wordpress < fashionJournalDb.sql').exec();
+    return runCmd('cd wp-db & mysql -u root crm < db.sql').exec();
 });
 
 gulp.task('zip', () => {
