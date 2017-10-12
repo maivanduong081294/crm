@@ -2,9 +2,10 @@
 if (!function_exists('thenatives_logo')) {
 	function thenatives_logo() {
 		global $thenatives;
+		$tag = is_front_page()?'h1':'h2';
 		?>
 		<div id="logo">
-			<h2>
+			<<?php echo $tag; ?>>
 				<?php if($thenatives['thenatives_logo']): ?>
 					<a href="<?php echo get_site_url(); ?>">
                         <?php
@@ -17,7 +18,7 @@ if (!function_exists('thenatives_logo')) {
 					    <?php echo $thenatives['thenatives_title']; ?>
                     </a>
 				<?php endif; ?>
-			</h2>
+			</<?php echo $tag; ?>>
 		</div>
 		<?php 
 	}
