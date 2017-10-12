@@ -1,0 +1,38 @@
+div#information.postbox .inside {
+    padding: 0;
+    margin-top: 0;
+}
+.thenatives-post-field {
+    padding: 15px 12px;
+    display: flex;
+    align-items: center;
+}
+.thenatives-post-field-title {
+    font-weight: 600;
+    width: 200px;
+    font-size: 14px;
+}
+.thenatives-post-field:nth-child(odd) {
+    background: #fafafa;
+}
+.thenatives-post-field-input {
+    width: 340px;
+    border: 1px solid;
+    border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+    background: #f1f1f1 !important;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: none !important;
+}
+.thenatives-post-field-input:hover,.thenatives-post-field-input:focus {
+    background: #f9f9f9 !important;
+}
+.thenatives-post-field-content hr {
+    border: none;
+    margin: 0;
+}
+.thenatives-post-field-content .upload-image img {
+    width: 340px !important;
+    border-radius: 5px;
+}
