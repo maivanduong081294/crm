@@ -17,6 +17,7 @@ public/
 app/lib/
 /.idea
 /wp-content/themes/
+/wp-content/uploads
 /node_modules
 /bower_components
 

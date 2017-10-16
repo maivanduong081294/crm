@@ -45,14 +45,19 @@ add_action('admin_init','thenatives_settings_admin_init');
 add_action('admin_menu', 'thenatives_settings_add_admin');
 
 add_action( 'admin_init', function(){
-	wp_register_script( 'admin-script', ADMIN_DIR . "assets/js/admin.js", array('jquery') );
-	wp_enqueue_script('admin-script');
-	wp_register_style( 'admin-custom-style', ADMIN_DIR . "assets/css/admin.css" );
-	wp_enqueue_style('admin-custom-style');
-	
-	if( !did_action('wp_enqueue_media') ){
-		wp_enqueue_media();
-	}
+    wp_register_script( 'admin-script', ADMIN_DIR . "assets/js/admin.js", array('jquery') );
+    wp_enqueue_script('admin-script');
+    wp_localize_script( 'admin-script', 'ajax_object', array(
+        'url' => admin_url( 'admin-ajax.php' ),
+    ));
+    wp_register_style( 'admin-custom-style', ADMIN_DIR . "assets/css/admin.css" );
+    wp_enqueue_style('admin-custom-style');
+    wp_register_style( 'fontawesome-style', THEME_CSS . "/font-awesome.min.css" );
+    wp_enqueue_style('fontawesome-style');
+
+    if( !did_action('wp_enqueue_media') ){
+        wp_enqueue_media();
+    }
 },10);
 
 require_once ( ADMIN_PATH . 'functions.php' );

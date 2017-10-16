@@ -1,4 +1,4 @@
-div#information.postbox .inside {
+div#config.postbox .inside,div#data.postbox .inside {
     padding: 0;
     margin-top: 0;
 }
@@ -11,6 +11,7 @@ div#information.postbox .inside {
     font-weight: 600;
     width: 200px;
     font-size: 14px;
+    flex: none;
 }
 .thenatives-post-field:nth-child(odd) {
     background: #fafafa;
@@ -21,6 +22,7 @@ div#information.postbox .inside {
     border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
     background: #f1f1f1 !important;
     padding: 6px;
+    min-height: 33px;
     border-radius: 3px;
     font-size: 14px;
     box-shadow: none !important;
@@ -33,6 +35,67 @@ div#information.postbox .inside {
     margin: 0;
 }
 .thenatives-post-field-content .upload-image img {
-    width: 340px !important;
+    max-width: 340px !important;
     border-radius: 5px;
+}
+.thenatives-post-field-content.repeater-field {
+    width: 100%;
+}
+.repeater-field-item-title {
+    margin: 10px 0 0;
+    font-size: 14px;
+    padding: 10px;
+    background: #e8e7e7;
+}
+.repeater-field-item:first-child .repeater-field-item-title {
+    margin-top: 0;
+}
+.repeater-field-item-content .thenatives-post-field-title {
+    width: 150px;
+}
+.repeater-field-item .thenatives-post-field {
+    background: #f5f5f5;
+}
+.thenatives-post-field .repeater-field-item .thenatives-post-field:nth-child(odd) {
+    background: #fafafa;
+}
+.thenatives-post-field:nth-child(odd) .repeater-field-item .thenatives-post-field:nth-child(odd) {
+    background: #fff;
+}
+.repeater-field-item-header {
+    position: relative;
+}
+.repeater-field-item-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.wp-core-ui .repeater-field-item-button button {
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 0;
+    padding: 0px 0 5px;
+    cursor: pointer;
+    transition: 0.35s all;
+    outline: none;
+}
+.thenatives-post-content-item.repeater-field-item:first-child:last-child .repeater-field-item-button .repeater-field-remove {
+    display: none;
+}
+.wp-core-ui .repeater-field-item-button button.repeater-field-open {
+    padding: 1px 0 0;
+}
+.wp-core-ui .repeater-field-item-button button.repeater-field-open::before {
+    content: "\f106";
+    font-family: FontAwesome;
+    transition: 0.35s all;
+}
+.wp-core-ui .repeater-field-item-button button.repeater-field-open.active::before {
+    transform: rotateZ(180deg);
 }

@@ -74,9 +74,9 @@ gulp.task('migrate', () => {
 
 gulp.task('migratePHP', () => {
     const phpFilter = filter('**/*.php');
-    return gulp.src(Config.paths.src.root + '/**/*')
-        .pipe(phpFilter)
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.src.root + '/**/*')
+    .pipe(phpFilter)
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('migrateAfterBuild', () => {
@@ -92,10 +92,19 @@ gulp.task('buildSCSS', ['migrate'], () => {
         .pipe(gulp.dest(Config.paths.build.root));
 });
 
-gulp.task('liveReloadSCSS', () => {
+gulp.task('ReloadSCSS', () => {
     return gulp.src([Config.paths.src.root + '/**/*/main.scss', Config.paths.src.root + '/**/*/index.scss', Config.paths.src.root + '/**/*/global.scss', Config.paths.src.root + '/**/*/home.scss', Config.paths.src.root + '/**/*/style.scss'])
         .pipe(sass({
             errLogToConsole: true,
+        }))
+        .pipe(gulp.dest(Config.paths.build.root));
+});
+
+gulp.task('liveReloadCSS', ['ReloadSCSS'], () => {
+    return gulp.src([Config.paths.build.root + '/**/*/main.css', Config.paths.build.root + '/**/*/index.css', Config.paths.build.root + '/**/*/global.scss', Config.paths.build.root + '/**/*/home.css', Config.paths.build.root + '/**/*/style.css'])
+        .pipe(cleanCss({ debug: true, rebase: false }, function(details) {
+            console.log(details.name + ': ' + details.stats.originalSize);
+            console.log(details.name + ': ' + details.stats.minifiedSize);
         }))
         .pipe(gulp.dest(Config.paths.build.root));
 });
@@ -117,93 +126,93 @@ gulp.task('uglifyJS', ['cleanCSS'], () => {
 });
 
 gulp.task('liveReloadJS', () => {
-    return gulp.src([Config.paths.src.root + '/**/*/main.js'])
+    return gulp.src([Config.paths.src.root + '/**/*/main.js',Config.paths.src.root + '/**/*/admin.js'])
         .pipe(uglify())
         .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('replacePHP_dev', () => {
     const phpFilter = filter('**/*.php');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(phpFilter)
-        // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
-        .pipe(replace('http://localhost', 'http://fj-dev.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(phpFilter)
+    // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
+    .pipe(replace('http://localhost', 'http://fj-dev.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('replaceSQL_dev', () => {
     const sqlFilter = filter('**/*.sql');
-    return gulp.src('./wp-db/fashionJournalDb.sql')
-        // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
-        .pipe(replace('http://localhost', 'http://fj-dev.nativesdev.com.au'))
-        .pipe(gulp.dest('./wp-db'));
+return gulp.src('./wp-db/fashionJournalDb.sql')
+// .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
+    .pipe(replace('http://localhost', 'http://fj-dev.nativesdev.com.au'))
+    .pipe(gulp.dest('./wp-db'));
 });
 
 gulp.task('replaceHTML_dev', () => {
     const htmlFilter = filter('**/*.html');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(htmlFilter)
-        .pipe(replace('http://localhost/', 'http://fj-dev.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(htmlFilter)
+    .pipe(replace('http://localhost/', 'http://fj-dev.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('replaceCSS_dev', () => {
     const cssFilter = filter('**/*.css');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(cssFilter)
-        .pipe(replace('http://localhost/', 'http://fj-dev.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(cssFilter)
+    .pipe(replace('http://localhost/', 'http://fj-dev.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 ///
 
 gulp.task('exportSQL', () => {
-    return runCmd('cd wp-db & mysqldump -u root crm > db.sql').exec();
+    return runCmd('cd wp-db & mysqldump -u root source > db.sql').exec();
 });
 
 gulp.task('importSQL', () => {
-    return runCmd('cd wp-db & mysql -u root crm < db.sql').exec();
+    return runCmd('cd wp-db & mysql -u root source < db.sql').exec();
 });
 
 gulp.task('zip', () => {
     gulp.src('./*')
-        .pipe(zip('my-app.zip'))
-        .pipe(gulp.dest('./build'));
+    .pipe(zip('my-app.zip'))
+    .pipe(gulp.dest('./build'));
 });
 
 ///
 
 gulp.task('replacePHP_prod', () => {
     const phpFilter = filter('**/*.php');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(phpFilter)
-        // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
-        .pipe(replace('http://localhost', 'http://fj.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(phpFilter)
+    // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
+    .pipe(replace('http://localhost', 'http://fj.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('replaceSQL_prod', () => {
     const sqlFilter = filter('**/*.sql');
-    return gulp.src('./wp-db/fashionJournalDb.sql')
-        // .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
-        .pipe(replace('http://localhost', 'http://fj.nativesdev.com.au'))
-        .pipe(gulp.dest('./wp-db'));
+return gulp.src('./wp-db/fashionJournalDb.sql')
+// .pipe(replace('http://fj-dev.nativesdev.com.au', 'http://localhost'))
+    .pipe(replace('http://localhost', 'http://fj.nativesdev.com.au'))
+    .pipe(gulp.dest('./wp-db'));
 });
 
 gulp.task('replaceHTML_prod', () => {
     const htmlFilter = filter('**/*.html');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(htmlFilter)
-        .pipe(replace('http://localhost/', 'http://fj.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(htmlFilter)
+    .pipe(replace('http://localhost/', 'http://fj.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 gulp.task('replaceCSS_prod', () => {
     const cssFilter = filter('**/*.css');
-    return gulp.src(Config.paths.build.root + '/**/*')
-        .pipe(cssFilter)
-        .pipe(replace('http://localhost/', 'http://fj.nativesdev.com.au'))
-        .pipe(gulp.dest(Config.paths.build.root));
+return gulp.src(Config.paths.build.root + '/**/*')
+    .pipe(cssFilter)
+    .pipe(replace('http://localhost/', 'http://fj.nativesdev.com.au'))
+    .pipe(gulp.dest(Config.paths.build.root));
 });
 
 ///
@@ -212,8 +221,8 @@ gulp.task('replaceCSS_prod', () => {
 
 gulp.task('clear', () => {
     del([Config.paths.build.root + '/**/*'], { force: true }).then(paths => {
-        console.log('Deleted files and folders:\n', paths.join('\n'));
-    });;
+    console.log('Deleted files and folders:\n', paths.join('\n'));
+});;
 });
 
 gulp.task('rebuild-appspec', () => {
@@ -323,7 +332,10 @@ gulp.task('livereload', function() {
 // Watches
 gulp.task('watch', function() {
     watch(Config.paths.src.root + '/**/*.scss', function() {
-        gulp.start('liveReloadSCSS');
+        gulp.start('liveReloadCSS');
+    });
+    watch(Config.paths.src.root + '/**/*.js', function() {
+        gulp.start('liveReloadJS');
     });
     watch(Config.paths.src.root + '/**/*.php', function() {
         gulp.start('migratePHP');

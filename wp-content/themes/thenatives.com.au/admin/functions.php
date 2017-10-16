@@ -345,9 +345,6 @@ function of_style_only(){
 	if( !did_action('wp_enqueue_media') ){
 		wp_enqueue_media();
 	}
-
-	wp_register_style( 'fontawesome-style', THEME_CSS . "/font-awesome.min.css" );
-	wp_enqueue_style('fontawesome-style');
 	wp_register_style( 'admin-custom-style', ADMIN_DIR . "assets/css/admin.css" );
 	wp_enqueue_style('admin-custom-style');
 	wp_register_script( 'admin-custom-script', ADMIN_DIR . "assets/js/admin.js", array('jquery') );
