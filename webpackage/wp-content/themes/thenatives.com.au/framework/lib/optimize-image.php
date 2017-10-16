@@ -1,5 +1,5 @@
 <?php
-Class resize
+class ImageOptimize
 {
     // *** Class variables
     private $image;

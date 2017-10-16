@@ -31,3 +31,48 @@ function thenatives_upload_media ($mimes) {
     return $mimes;
 }
 add_filter('upload_mimes', 'thenatives_upload_media');
+
+add_filter('wp_generate_attachment_metadata', 'optimize_upload_image', 9999);
+function optimize_upload_image($meta) {
+    $dir = wp_upload_dir();
+    $path = $dir['basedir'];
+    $folder = '';
+    $arr = explode('/', $meta['file']);
+    $count = 1;
+    foreach ($arr as $item) {
+        if ($count >= count($arr)) {
+            break;
+        }
+        $folder .= '/' . $item;
+        $count++;
+    }
+    $path .= $folder;
+    $dir = $dir['baseurl'] . $folder;
+    $sizes = $meta['sizes'];
+    $sizes['full'] = array(
+        'file' => substr(strrchr($meta['file'], '/'), 1),
+        'width' => $meta['width'],
+        'height' => $meta['height'],
+    );
+    foreach ($sizes as $size) {
+        $url = $path . '/' . $size['file'];
+        if (file_exists($url)) {
+            if (class_exists('Imagick')) {
+                $img = new Imagick();
+                $img->readImage($url);
+                $img->setImageCompression(imagick::COMPRESSION_UNDEFINED);
+                $img->setImageCompressionQuality(80);
+                $img->stripImage();
+                $img->writeImage($url);
+            }
+            /*elseif (class_exists('ImageOptimize')) {
+                $width = $size['width'];
+                $height = $size['height'];
+                $resizeObj = new ImageOptimize($url);
+                $resizeObj->resizeImage($width, $height, "crop");
+                $resizeObj->saveImage($url, 80);
+            }*/
+        }
+    }
+    return $meta;
+}

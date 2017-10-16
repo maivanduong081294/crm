@@ -31,6 +31,7 @@ class Thenatives {
 		define('THEME_URI', get_template_directory_uri());
 		define('THEME_FRAMEWORK', THEME_DIR . '/framework');
 		define('THEME_FRAMEWORK_URI', THEME_URI . '/framework');
+		define('THEME_LIB', THEME_FRAMEWORK . '/lib');
 		define('THEME_FUNCTIONS', THEME_FRAMEWORK . '/functions');
 		define('THEME_SHORTCODE', THEME_FRAMEWORK . '/shortcodes');
 		define('THEME_WIDGETS', THEME_FRAMEWORK . '/widgets');
@@ -90,7 +91,7 @@ class Thenatives {
 	}
 	
 	protected function initArrIncludes(){
-		$this->arrIncludes = array('class-tgm-plugin-activation,optimize-image');
+		$this->arrIncludes = array('class-tgm-plugin-activation','optimize-image');
 	}
 
 	protected function initIncludes(){
@@ -125,7 +126,7 @@ class Thenatives {
         wp_enqueue_script('main');
         wp_register_style( 'fontawesome', THEME_CSS . "/font-awesome.min.css" );
         wp_enqueue_style('fontawesome');
-        wp_register_style( 'theme', THEME_URI . "/style.css" );
+        wp_register_style( 'theme', get_stylesheet_directory_uri() . "/style.css" );
         wp_enqueue_style('theme');
         wp_register_style( 'main', THEME_SCSS . "/main.css" );
         wp_enqueue_style('main');
