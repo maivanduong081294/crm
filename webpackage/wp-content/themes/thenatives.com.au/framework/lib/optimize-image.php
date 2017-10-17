@@ -9,6 +9,7 @@ class ImageOptimize
     function __construct($fileName)
     {
         // *** Open up the file
+        $this->extension = strtolower(strrchr($fileName, '.'));
         $this->image = $this->openImage($fileName);
 
         // *** Get width and height
@@ -19,8 +20,7 @@ class ImageOptimize
     private function openImage($file)
     {
         // *** Get extension
-        $extension = strtolower(strrchr($file, '.'));
-        switch($extension)
+        switch($this->extension)
         {
             case '.jpg':
             case '.jpeg':
@@ -50,8 +50,9 @@ class ImageOptimize
 
         // *** Resample - create image canvas of x, y size
         $this->imageResized = imagecreatetruecolor($optimalWidth, $optimalHeight);
-        imagecopyresampled($this->imageResized, $this->image, 0, 0, 0, 0, $optimalWidth, $optimalHeight, $this->width, $this->height);
 
+        $this->getTransparent($this->imageResized);
+        imagecopyresampled($this->imageResized, $this->image, 0, 0, 0, 0, $optimalWidth, $optimalHeight, $this->width, $this->height);
 
         // *** if option is 'crop', then crop too
         if ($option == 'crop') {
@@ -174,7 +175,20 @@ class ImageOptimize
 
         // *** Now crop from center to exact requested size
         $this->imageResized = imagecreatetruecolor($newWidth , $newHeight);
+        $this->getTransparent($this->imageResized);
         imagecopyresampled($this->imageResized, $crop , 0, 0, $cropStartX, $cropStartY, $newWidth, $newHeight , $newWidth, $newHeight);
+    }
+
+    private function getTransparent($newImage){
+        if($this->extension == '.png' || $this->extension == '.gif') {
+            imagealphablending($newImage, false);
+            $colorTransparent = imagecolorallocatealpha($newImage, 0, 0, 0, 127);
+            imagefill($newImage, 0, 0, $colorTransparent);
+            imagesavealpha($newImage, true);
+        }
+        else {
+            Imagefill($newImage, 0, 0, imagecolorallocate($newImage, 255, 255, 255));
+        }
     }
 
     ## --------------------------------------------------------
@@ -185,13 +199,15 @@ class ImageOptimize
         // *** Get extension
         $extension = strrchr($savePath, '.');
         $extension = strtolower($extension);
-
+        header('Content-Disposition: Attachment;filename=image.png');
+        header('Content-type: image/png');
         switch($extension)
         {
             case '.jpg':
             case '.jpeg':
                 if (imagetypes() & IMG_JPG) {
-                    imagejpeg($this->imageResized, $savePath, 98);
+                    $quantity = 50 + ($imageQuality/100)*50;
+                    imagejpeg($this->imageResized, $savePath, $quantity);
                 }
                 break;
 
@@ -202,14 +218,10 @@ class ImageOptimize
                 break;
 
             case '.png':
-                // *** Scale quality from 0-100 to 0-9
-                $scaleQuality = round(($imageQuality/100) * 9);
-
-                // *** Invert quality setting as 0 is best, not 9
-                $invertScaleQuality = 9 - $scaleQuality;
+                $pngQuantity = 5+((1-$imageQuality/100)*5-0.01);
 
                 if (imagetypes() & IMG_PNG) {
-                    imagepng($this->imageResized, $savePath, $invertScaleQuality);
+                    imagepng($this->imageResized, $savePath, $pngQuantity);
                 }
                 break;
 

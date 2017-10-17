@@ -57,21 +57,13 @@ function optimize_upload_image($meta) {
     foreach ($sizes as $size) {
         $url = $path . '/' . $size['file'];
         if (file_exists($url)) {
-            if (class_exists('Imagick')) {
-                $img = new Imagick();
-                $img->readImage($url);
-                $img->setImageCompression(imagick::COMPRESSION_UNDEFINED);
-                $img->setImageCompressionQuality(80);
-                $img->stripImage();
-                $img->writeImage($url);
-            }
-            /*elseif (class_exists('ImageOptimize')) {
+            if (class_exists('ImageOptimize')) {
                 $width = $size['width'];
                 $height = $size['height'];
                 $resizeObj = new ImageOptimize($url);
-                $resizeObj->resizeImage($width, $height, "crop");
+                $resizeObj->resizeImage($width, $height);
                 $resizeObj->saveImage($url, 80);
-            }*/
+            }
         }
     }
     return $meta;
