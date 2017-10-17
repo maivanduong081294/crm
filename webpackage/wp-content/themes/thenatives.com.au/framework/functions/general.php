@@ -34,7 +34,8 @@ add_filter('upload_mimes', 'thenatives_upload_media');
 
 if (class_exists('ImageOptimize')) {
     add_filter('wp_generate_attachment_metadata', 'optimize_upload_image', 9999);
-    function optimize_upload_image($meta){
+    function optimize_upload_image($meta)
+    {
         $dir = wp_upload_dir();
         $path = $dir['basedir'];
         $folder = '';
