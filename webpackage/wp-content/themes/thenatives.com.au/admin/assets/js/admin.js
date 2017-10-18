@@ -6,11 +6,11 @@ jQuery("document").ready(function($){
             title: 'Upload Image',
             multiple: false
         }).open()
-        .on('select', function(e){
+        .on('select', function(){
             var uploaded_image = image.state().get('selection').first();
             var image_url = uploaded_image.toJSON().url;
             $this.siblings('.upload-field').val(image_url);
-            if(image_url!=''){
+            if(image_url){
             	$this.siblings('.remove-upload-btn').show();
             	$this.siblings('.upload-image').html('<img src="'+image_url+'" style="margin-top: 15px;" />')
             }
@@ -35,7 +35,6 @@ jQuery("document").ready(function($){
             var check = false;
             list.children().each(function () {
                 var iCurrent = $(this).attr('data-item');
-                console.log(iCurrent)
                 if(iCurrent >= key) {
                     var newIndex = index+1;
                     if(!check) {
@@ -51,8 +50,6 @@ jQuery("document").ready(function($){
                     var html = $(this).html();
                     var string = name+'-'+iCurrent;
                     string = new RegExp(string, "gi");
-                    console.log(name)
-                    console.log(iCurrent)
                     var replace = name+'-'+newIndex;
                     html = html.replace(string,replace);
                     $(this).html(html);

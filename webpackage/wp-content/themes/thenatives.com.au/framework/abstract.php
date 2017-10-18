@@ -47,7 +47,7 @@ class Thenatives {
 	}
 
 	protected function initArrFunctions(){
-		$this->arrFunctions = array('filter_theme','general','header','footer','style','meta_fields');
+		$this->arrFunctions = array('filter_theme','general','header','footer','style','meta_fields','optimize');
 	}
 	
 	protected function initFunctions(){
@@ -123,6 +123,9 @@ class Thenatives {
 
 	public function themestyle() {
         wp_register_script( 'main', THEME_JS . "/main.js", array('jquery'), '', true );
+        wp_localize_script( 'main', 'ajax_object', array(
+            'url' => admin_url( 'admin-ajax.php' ),
+        ));
         wp_enqueue_script('main');
         wp_register_style( 'fontawesome', THEME_CSS . "/font-awesome.min.css" );
         wp_enqueue_style('fontawesome');
