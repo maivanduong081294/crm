@@ -8,3 +8,6 @@
 */
 
 @import url("../thenatives.com.au/style.css");
+body {
+    background: url(./screenshot.png);
+}
