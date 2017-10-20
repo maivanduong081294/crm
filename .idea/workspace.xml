@@ -2,172 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a87dec7-53c5-409b-a562-8cd0c124bc09" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/style.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/4-column-1-copy-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/4-column-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/4-column-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/4-column-win.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/EventListing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/Follow-Us-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/Follow-Us-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/Follow-Us-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/TagE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/TagF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/TagS.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/add-careers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/asos-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/bg-form.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/boy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/boy1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/c@1x.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/campaign-summer-17-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/close-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/close-careers-red.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/close-sales-pink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/dropdown-arrow-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/dropdown-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/e@1x.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/events-tag-c.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/events-tag-e.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/fj-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/group-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/group1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/half-page-300-x-600.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/half-page-x-600.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image12x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image22x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image32x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image42x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image52x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image62x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/image72x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/imagevent2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/imagevent3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/imagevent4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/imgpsh_fullsize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/instagram-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/left-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/left-skin2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/lido-2017-9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/logo-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/next-black-gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/next-black-gallery.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/next-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/post-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/prev-arrow-right-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/previous-black-gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/previous-black-gallery.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/previous-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/productImage_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/productImage_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/productImage_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/productImage_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/productImage_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/rectangle-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/rectangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/rectangle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/right-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/right-skin2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/screen-shot-2017-05-19-at-8-44-32-am.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/sh-20-103-big-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/shot-1-colour-orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/shot-1-colour-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/shot-2-colour-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/images/vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/framework/functions/style.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/4-column-1-copy-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/4-column-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/4-column-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/4-column-win.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/EventListing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/Follow-Us-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/Follow-Us-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/Follow-Us-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/TagE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/TagF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/TagS.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/add-careers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/asos-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/bg-form.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/boy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/boy1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/c@1x.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/campaign-summer-17-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/close-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/close-careers-red.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/close-sales-pink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/dropdown-arrow-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/dropdown-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/e@1x.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/events-tag-c.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/events-tag-e.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/fj-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/group-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/group1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/half-page-300-x-600.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/half-page-x-600.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image12x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image22x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image32x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image42x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image52x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image62x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/image72x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/imagevent2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/imagevent3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/imagevent4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/imgpsh_fullsize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/instagram-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/left-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/left-skin2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/lido-2017-9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/logo-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/next-black-gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/next-black-gallery.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/next-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/post-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/prev-arrow-right-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/previous-black-gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/previous-black-gallery.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/previous-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/productImage_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/productImage_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/productImage_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/productImage_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/productImage_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/rectangle-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/rectangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/rectangle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/right-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/right-skin2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/screen-shot-2017-05-19-at-8-44-32-am.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/sh-20-103-big-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/shot-1-colour-orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/shot-1-colour-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/shot-2-colour-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/images/vertical.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/fashion-journal/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/fashion-journal/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/framework/functions/general.php" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/framework/functions/general.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -188,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -298,7 +145,6 @@
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/index.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/functions.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/meta_fields.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/template-member.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-includes/post.php" />
@@ -318,6 +164,7 @@
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/index.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/style.css" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -411,46 +258,7 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webpackage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webpackage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webpackage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webpackage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="source" type="b2602c69:ProjectViewProjectNode" />
@@ -519,12 +327,12 @@
       <workItem from="1508248256093" duration="17419000" />
       <workItem from="1508292343638" duration="5377000" />
       <workItem from="1508397248419" duration="14882000" />
-      <workItem from="1508465750405" duration="1799000" />
+      <workItem from="1508465750405" duration="1939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84457000" />
+    <option name="totallyTimeSpent" value="84597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -736,6 +544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="230" column="9" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -861,8 +663,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding />
         </state>
       </provider>
