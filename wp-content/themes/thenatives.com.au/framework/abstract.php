@@ -47,7 +47,7 @@ class Thenatives {
 	}
 
 	protected function initArrFunctions(){
-		$this->arrFunctions = array('filter_theme','general','header','footer','style','meta_fields','optimize');
+		$this->arrFunctions = array('filter_theme','general','header','footer','style','meta_fields','optimize','minify');
 	}
 	
 	protected function initFunctions(){

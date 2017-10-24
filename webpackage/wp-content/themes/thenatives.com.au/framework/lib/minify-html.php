@@ -26,12 +26,10 @@ class WP_HTML_Compression
     {
         $raw = strlen($raw);
         $compressed = strlen($compressed);
-
         $savings = ($raw - $compressed) / $raw * 100;
-
         $savings = round($savings, 2);
-
-        return '<!--HTML compressed, size saved ' . $savings . '%. From ' . $raw . ' bytes, now ' . $compressed . ' bytes-->';
+        return '';
+        //return '<!--HTML compressed, size saved ' . $savings . '%. From ' . $raw . ' bytes, now ' . $compressed . ' bytes-->';
     }
 
     protected function minifyHTML($html)
@@ -44,9 +42,7 @@ class WP_HTML_Compression
         $html = '';
         foreach ($matches as $token) {
             $tag = (isset($token['tag'])) ? strtolower($token['tag']) : null;
-
             $content = $token[0];
-
             if (is_null($tag)) {
                 if (!empty($token['script'])) {
                     $strip = $this->compress_js;
@@ -54,12 +50,9 @@ class WP_HTML_Compression
                     $strip = $this->compress_css;
                 } else if ($content == '<!--wp-html-compression no compression-->') {
                     $overriding = !$overriding;
-
-                    // Don't print the comment
                     continue;
                 } else if ($this->remove_comments) {
                     if (!$overriding && $raw_tag != 'textarea') {
-                        // Remove any HTML comments, except MSIE conditional comments
                         $content = preg_replace('/<!--(?!\s*(?:\[if [^\]]+]|<!|>))(?:(?!-->).)*-->/s', '', $content);
                     }
                 }
@@ -73,13 +66,7 @@ class WP_HTML_Compression
                         $strip = false;
                     } else {
                         $strip = true;
-
-                        // Remove any empty attributes, except:
-                        // action, alt, content, src
                         $content = preg_replace('/(\s+)(\w++(?<!\baction|\balt|\bcontent|\bsrc)="")/', '$1', $content);
-
-                        // Remove any space before the end of self-closing XHTML tags
-                        // JavaScript excluded
                         $content = str_replace(' />', '/>', $content);
                     }
                 }
@@ -88,17 +75,14 @@ class WP_HTML_Compression
             if ($strip) {
                 $content = $this->removeWhiteSpace($content);
             }
-
             $html .= $content;
         }
-
         return $html;
     }
 
     public function parseHTML($html)
     {
         $this->html = $this->minifyHTML($html);
-
         if ($this->info_comment) {
             $this->html .= "\n" . $this->bottomComment($html, $this->html);
         }
