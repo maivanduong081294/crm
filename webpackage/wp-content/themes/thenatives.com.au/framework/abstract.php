@@ -91,7 +91,7 @@ class Thenatives {
 	}
 	
 	protected function initArrIncludes(){
-		$this->arrIncludes = array('class-tgm-plugin-activation','optimize-image');
+		$this->arrIncludes = array('class-tgm-plugin-activation','optimize-image','minify-html');
 	}
 
 	protected function initIncludes(){

@@ -206,8 +206,7 @@ class ImageOptimize
             case '.jpg':
             case '.jpeg':
                 if (imagetypes() & IMG_JPG) {
-                    $quantity = 50 + ($imageQuality/100)*50;
-                    imagejpeg($this->imageResized, $savePath, $quantity);
+                    imagejpeg($this->imageResized, $savePath, $imageQuality);
                 }
                 break;
 
@@ -218,7 +217,7 @@ class ImageOptimize
                 break;
 
             case '.png':
-                $pngQuantity = 5+((1-$imageQuality/100)*5-0.01);
+                $pngQuantity = 9+((1-$imageQuality/100)*9-0.01);
 
                 if (imagetypes() & IMG_PNG) {
                     imagepng($this->imageResized, $savePath, $pngQuantity);
