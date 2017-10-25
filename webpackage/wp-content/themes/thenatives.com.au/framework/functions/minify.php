@@ -37,11 +37,20 @@ function minify_css($url) {
         $content = stream_get_contents(fopen($file, "rb"));
         $folder = str_replace('/' . substr(strrchr($url, '/'), 1), '', $url);
 
+        while(strpos($content, '/*')!==false){
+            $url_pos = strpos($content, '/*');
+            $string = substr($content, $url_pos);
+            $length = strpos($string, '*/');
+            $string = substr($string, 0, $length+2);
+            $content = str_replace($string,'',$content);
+        }
+
         $temp = $content;
-        while (strpos($temp, 'url(')) {
+        while (strpos($temp, 'url(')!==false) {
             $url_pos = strpos($temp, 'url(') ? strpos($temp, 'url(') : '';
-            $length = (strpos($temp, ')') - $url_pos) - 4;
-            $mainlink = substr($temp, ($url_pos + 4), $length);
+            $string = substr($temp, $url_pos);
+            $length = strpos($string, ')');
+            $mainlink = substr($string, 4, $length-4);
             $link = str_replace('"', '', $mainlink);
             $link = str_replace("'", '', $link);
             $count = 0;
@@ -76,7 +85,7 @@ function minify_css($url) {
             $temp = substr($temp, ($url_pos + 5 + $length));
         }
 
-        while (strpos($content, '@import')) {
+        while (strpos($content, '@import')!==false) {
             $pos = strpos($content, '@import');
             $temp = substr($content, $pos);
             $string = substr($temp, 0, strpos($temp, ';'));
@@ -123,6 +132,8 @@ function minify_css($url) {
     return '';
 }
 
+remove_action( 'wp_print_footer_scripts', '_wp_footer_scripts');
+add_action('wp_print_footer_scripts','thenatives_print_script' );
 add_action('wp_footer','thenatives_print_script' );
 function thenatives_print_script() {
     print_footer_scripts();
