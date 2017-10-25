@@ -8,6 +8,11 @@
 					while(have_posts()) {
 						the_post();
                         get_template_part('content', get_post_format());
+                        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+                            echo 'This is a server using Windows!';
+                        } else {
+                            echo substr(PHP_OS, 0, 3);
+                        }
 					}
 				?>
 				</div>
