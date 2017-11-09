@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a87dec7-53c5-409b-a562-8cd0c124bc09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/jpegoptim.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/optipng.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/optimize.php" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/optimize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/bootstrap-colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/color-picker.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/color-picker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/cookie.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/iris.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/iris.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/jquery.maskedinput-1.2.2.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/jquery.maskedinput-1.2.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/jquery.tipsy.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/jquery.tipsy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/smof.js" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/admin/assets/js/smof.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" afterPath="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/fashion-journal/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/fashion-journal/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/framework/abstract.php" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/framework/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,14 +36,14 @@
       <file leaf-file-name="optimize.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/optimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+            <state relative-caret-position="969">
+              <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -57,8 +56,58 @@
       <file leaf-file-name="abstract.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/abstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="128" column="34" lean-forward="false" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minify.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script-loader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/script-loader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="1179" column="5" lean-forward="false" selection-start-line="1179" selection-start-column="5" selection-end-line="1179" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.wp-scripts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/class.wp-scripts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1913">
+              <caret line="237" column="36" lean-forward="false" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -90,11 +139,19 @@
       <find>60px</find>
       <find>&quot;/</find>
       <find>pem</find>
+      <find>do_items</find>
+      <find>function do_items</find>
+      <find>print_footer_scripts</find>
+      <find>do_footer_items</find>
+      <find>do_item</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
       <replace>$current</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\Xampp\htdocs\source</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/layout-posts.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/footer.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/search.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/archive.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/content.php" />
@@ -114,10 +169,8 @@
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/global.scss" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/header.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/options.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/options-machine.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/index.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/functions.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/meta_fields.php" />
@@ -132,7 +185,6 @@
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/assets/js/admin.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/style.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/general.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/compress.php" />
         <option value="$USER_HOME$/Desktop/EDM -FJ.html" />
@@ -144,15 +196,20 @@
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/minify-html.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/style.css" />
         <option value="D:/WordPress/minify/lib-minify-html.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php" />
         <option value="D:/WordPress/optimize-images/optimize-library.php" />
         <option value="D:/WordPress/optimizer/optimizer-library.php" />
         <option value="D:/WordPress/minify/minify.php" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/js/main.js" />
-        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/abstract.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/optimize.php" />
         <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/index.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/thenatives.com.au/scss/main.css" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss" />
+        <option value="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/abstract.php" />
+        <option value="$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php" />
       </list>
     </option>
   </component>
@@ -197,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,16 +352,10 @@
               <item name="thenatives.com.au" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -315,11 +367,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xampp\htdocs\source" />
       <recent name="D:\Xampp\htdocs\source\webpackage\wp-content\themes\thenatives.com.au\framework\lib" />
       <recent name="D:\Xampp\htdocs\source\webpackage\wp-content\themes\thenatives.com.au\fonts" />
       <recent name="D:\Xampp\htdocs\source\webpackage\wp-content\themes\thenatives.com.au\admin\assets\js" />
       <recent name="D:\Xampp\htdocs\source\webpackage\wp-content\themes\thenatives.com.au\admin\assets\css" />
-      <recent name="D:\Xampp\htdocs\source\webpackage\wp-content\themes\thenatives.com.au\framework\functions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,20 +415,22 @@
       <workItem from="1508896801630" duration="8646000" />
       <workItem from="1508914996272" duration="1389000" />
       <workItem from="1508921191396" duration="4986000" />
+      <workItem from="1510214460002" duration="6569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129993000" />
+    <option name="totallyTimeSpent" value="136562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33282906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33812407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -388,7 +442,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -424,43 +477,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/admin/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="344" column="42" lean-forward="false" selection-start-line="344" selection-start-column="42" selection-end-line="344" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/faq.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/template-member.php" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/class-tgm-plugin-activation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3373">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -528,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/functions.php" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/style.php" />
@@ -562,13 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/cacert.pem" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/compress.php" />
-    <entry file="file://$USER_HOME$/Desktop/EDM -FJ.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="251" column="64" lean-forward="false" selection-start-line="251" selection-start-column="64" selection-end-line="251" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EDM -FJ.html" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/main.css" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/global.css" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/fashion-journal/css/main.css" />
@@ -576,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="105" column="50" lean-forward="true" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1388">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -601,56 +597,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WordPress/minify/lib-minify-html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WordPress/minify/lib-minify-html.php" />
     <entry file="file://D:/WordPress/optimize-images/optimize-images.php" />
     <entry file="file://D:/WordPress/optimize-images/optimize-library.php" />
-    <entry file="file://D:/WordPress/optimizer/optimizer-library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WordPress/optimizer/optimizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2618">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WordPress/minify/minify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/WordPress/optimizer/optimizer-library.php" />
+    <entry file="file://D:/WordPress/optimizer/optimizer.php" />
+    <entry file="file://D:/WordPress/minify/minify.php" />
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/lib/minify-html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -662,6 +618,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -670,18 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/optimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="969">
+          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -690,6 +646,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/thenatives.com.au/scss/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="83" lean-forward="true" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="114" column="137" lean-forward="false" selection-start-line="114" selection-start-column="137" selection-end-line="114" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="872" column="8" lean-forward="false" selection-start-line="872" selection-start-column="8" selection-end-line="872" selection-end-column="8" />
+          <folding>
+            <marker date="1510216591130" expanded="true" signature="23397:23806" ph="..." />
+            <marker date="1510216591130" expanded="true" signature="23478:23674" ph="..." />
+            <marker date="1510216591130" expanded="true" signature="23712:23796" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/script-loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1179" column="5" lean-forward="false" selection-start-line="1179" selection-start-column="5" selection-end-line="1179" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class.wp-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1913">
+          <caret line="237" column="36" lean-forward="false" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="128" column="34" lean-forward="false" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackage/wp-content/themes/thenatives.com.au/framework/functions/minify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
           <folding />
         </state>
       </provider>
